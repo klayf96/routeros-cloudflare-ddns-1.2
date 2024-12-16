@@ -39,4 +39,6 @@
   } else={
       :log error "[Cloudflare DDNS] domain credentials are incorrect or the server cannot be accessed (code: -13)";
   }
+} else={
+  :log warning "[Cloudflare DDNS] DHCP Client detected a change, waiting for an address lease (code: -10)"
 }
