@@ -18,3 +18,8 @@ Cloudflare DDNS script for MikroTik RouterOS v7
 - `cfAPIToken` - API token of Cloudflare account (It can be created from the bottom right of the Cloudflare Dashboard)
 
 ## Applying scripts to RouterOS
+Where to apply the script depends on the address version your ISP leases to your router.
+
+### for IPv4
+
+### for IPv6
